@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/uses-docker-blue.svg)
 ![](https://img.shields.io/badge/licence-GPL--3.0-lightgrey.svg)
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/gcloudChris.svg?style=social)](https://twitter.com/gcloudChris) 
+
 
 * in development use at your own risk
 
@@ -15,9 +15,9 @@
 
 ```
 # local
-nextflow run replikation/blastn_so_hot --fasta query.fa --references references.fasta --cores 8 -profile local,docker
+nextflow run mult1fractal/local_blastn --fasta query.fa --references references.fasta --cores 8 -profile local,docker
 # NCBI query
-nextflow run replikation/blastn_so_hot --fasta query.fa --cores 8 -profile local,docker
+nextflow run mult1fractal/local_blastn --fasta query.fa --cores 8 -profile local,docker
 ```
 
 # example results
